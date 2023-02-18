@@ -1,10 +1,12 @@
+import Logo from "../Images/Logo.svg"
+
 function Nav() {
 
     return (
-        <ul>
+        <ul className="NavBar">
             <li>
                 <a href="#">
-                    <img src="" alt="Little Lemon Logo" />
+                    <img src={Logo} alt="Little Lemon Logo" />
                 </a>
             </li>
             <li><a href="#">Home</a></li>
@@ -13,7 +15,7 @@ function Nav() {
             <li><a href="#">Reservations</a></li>
             <li><a href="#">Order Online</a></li>
             <li><a href="#">Login</a></li>
-        </ul>
+        </ul >
     );
 
 }
