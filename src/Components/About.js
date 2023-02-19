@@ -1,6 +1,6 @@
 import MarioAdrianB from "../icons_assets/Mario and Adrian b.jpg"
 
-function Main() {
+function About() {
 
     return (
         <div className="About">
@@ -13,4 +13,4 @@ function Main() {
 
 }
 
-export default Main;
+export default About;
