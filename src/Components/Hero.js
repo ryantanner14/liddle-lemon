@@ -4,10 +4,14 @@ function Hero() {
 
     return (
         <div className="Hero">
-            <h1 className="Hero left">Little Lemon</h1>
-            <h2 className="Hero left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quidem animi officia. Blanditiis cum asperiores, accusamus adipisci ipsum sit, iusto quos optio ad, voluptate qui nulla rem? Minima, minus aliquam?</h2>
-            <img className="Hero Image" src={bruschetta} alt="bruschetta: delish" />
-            <button className="Hero Button">Reserve a Table</button>
+            <div className="left">
+                <h1 className="heroTitle">Little Lemon</h1>
+                <h2 className="heroText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quidem animi officia. Blanditiis cum asperiores, accusamus adipisci ipsum sit, iusto quos optio ad, voluptate qui nulla rem? Minima, minus aliquam?</h2>
+                <button className="Button">Reserve a Table</button>
+            </div>
+            <div className="right">
+                <img className="Image" src={bruschetta} alt="bruschetta: delish" />
+            </div>
         </div>
     );
 
