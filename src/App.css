@@ -136,7 +136,6 @@ button {
 }
 
 .cardImage {
-  position: relative;
   width: 28vw;
   max-height: max-content;
   margin: 0%;
@@ -178,58 +177,92 @@ button {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-left: 10%;
-  margin-right: 10%;
+  background-color: #495e57;
+  padding: 2%;
 }
 
 
 .review {
   display: flex;
   flex-direction: column;
+  background-color: #edefee;
+  border-radius: 5%;
+  margin: 1%;
+  padding: 3%;
+  height: 25rem;
+  float: left;
+  
+
+}
+
+.review h1 {
+  font-size: medium;
 }
 
 .reviewCard {
   background-color: #edefee;
   border-radius: 5%;
-  margin: 1%;
-  padding: 1%;
+
+  
 
 }
 
 .reviewImage {
-  position: relative;
-  width: 28vw;
-  max-width: 100%;
-  max-height: 100%;
-  margin: 0%;
-  padding: 0%;
+
+  width: auto;
+  border-radius: 50%;
 }
 
 .reviewInfo {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  margin: 2%;
   
 }
 
-.cardTitle {
-  color: #495e57;
-  font-size: large;
-}
-
-.cardPrice {
-  color: #ee9972;
-  font-size: large;
-  justify-content: flex-end;
+.reviewName {
+  padding: 10%;
 }
 
 .ReviewDescription{
   color: #495e57;
   text-align: left;
-  font-size: small;
+  font-size: medium;
 
 }
+
+/* ********************************************* */
+/* About*/
+/* ********************************************* */
+
+.About {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutLeft {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: auto;
+  padding: 2%;
+
+}
+
+.About h2 {
+  font-size: small;
+}
+
+.aboutImage {
+  width: 40%;
+  border-radius: 0.5rem;
+  margin: 1%;
+
+}
+
+
 
 
 /* ********************************************* */
@@ -239,11 +272,15 @@ button {
 .Footer {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
   font-size: x-small;
+  background-color: #333333;
+  padding: 0.5rem;
 }
 
 .Footer h3 {
   font-weight: 100;
+  color: #edefee;
 }
 
 .footerLeft {
