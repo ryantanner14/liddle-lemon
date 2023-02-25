@@ -1,7 +1,7 @@
 import LemonLogo from '../icons_assets/Logo.svg';
 
 function Footer() {
-
+    console.log("footer Rendered")
     return (
         <div className="Footer">
             <img src={LemonLogo} alt="Little Lemon Logo" />

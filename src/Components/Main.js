@@ -4,7 +4,7 @@ import Testimonials from './Testimonials';
 import About from './About';
 
 function Main() {
-
+    console.log("Main Rendered")
     return (
         <>
             <Hero></Hero>
