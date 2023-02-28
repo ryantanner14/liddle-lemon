@@ -1,5 +1,5 @@
 import Logo from "../Images/Logo.svg"
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Main from "./Main";
 
 function Nav() {
@@ -13,7 +13,7 @@ function Nav() {
             <Link to="/" className="NavItem">Main</Link>
             <Link to="/about" className="NavItem">About</Link>
             <Link to="/" className="NavItem">Menu</Link>
-            <Link to="/" className="NavItem">Reservations</Link>
+            <Link to="/booking" className="NavItem">Reservations</Link>
             <Link to="/" className="NavItem">Order Online</Link>
             <Link to="/" className="NavItem">Login</Link>
 
